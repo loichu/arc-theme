@@ -1,6 +1,6 @@
 # Arc Theme xfwm4 HiDPI
 
-This is a fork of [arc-theme](https://github.com/horst3180/arc-theme). I just regenerated the assets I needed by modifying the scripts.
+This is a fork of [arc-theme](https://github.com/horst3180/arc-theme). I just regenerated the assets I needed by modifying the scripts. [Install from the archive](https://github.com/loichu/arc-theme-xfwm4-hidpi#archive) to have it **in 192 DPI**  or [build it yourself](https://github.com/loichu/arc-theme-xfwm4-hidpi#how-to-reproduce) to set **any DPI value**.
 
 ## Arc is available in three variants 
 
@@ -27,7 +27,7 @@ The easiest method to install the hidpi theme in
 * Choose between Light, Darker or Dark in `Settings -> Windows Manager -> Style`.
 * Also apply the theme in `Settings -> Appearance -> Style`.
 
---
+---
 
 ### How to reproduce
 
@@ -42,7 +42,7 @@ Requirements on Arch Linux:
 * inkscape
 * [official arc theme](https://github.com/horst3180/arc-theme) (cloned in a local directory)
 
-> If you don't want to rebuild the assets (which allows you to set any DPI value you want), clone this repository and start from step 5.
+> If you don't want to rebuild the assets (which allows you to set any DPI value you want), clone this repository and start from [step 5](https://github.com/loichu/arc-theme-xfwm4-hidpi#5-generate-theme-if-you-cloned-my-repo-start-here).
 
 #### 1 Delete assets
 
