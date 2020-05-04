@@ -21,7 +21,8 @@ else
     echo Rendering $ASSETS_DIR/$i.png
     $INKSCAPE --export-id=$i \
               --export-id-only \
-              --export-png=$ASSETS_DIR/$i.png $SRC_FILE >/dev/null \
+	      --export-dpi=192 \
+              --export-filename=$ASSETS_DIR/$i.png $SRC_FILE >/dev/null \
     && $OPTIPNG -o7 --quiet $ASSETS_DIR/$i.png 
 fi
 
@@ -32,7 +33,8 @@ else
     echo Rendering $DARK_ASSETS_DIR/$i.png
     $INKSCAPE --export-id=$i \
               --export-id-only \
-              --export-png=$DARK_ASSETS_DIR/$i.png $DARK_SRC_FILE >/dev/null \
+	      --export-dpi=192 \
+              --export-filename=$DARK_ASSETS_DIR/$i.png $DARK_SRC_FILE >/dev/null \
     && $OPTIPNG -o7 --quiet $DARK_ASSETS_DIR/$i.png 
 fi
 done
